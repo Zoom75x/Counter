@@ -1,0 +1,22 @@
+.list {
+    list-style-type: none;
+    padding: 18px;
+    border: 1px solid black;
+    color: #f8f5f5;
+    background-color: #504EC6;
+    width: 240px;
+    border-radius: 7px;
+    display:flex;
+    flex-direction: column;
+    gap: 18px;
+    cursor: pointer;
+}
+.list:hover {
+    background-color: var(--secondary-color);
+}
+
+.btnMenu {
+    background-color: var(--primary-color);
+    border: 1px solid black;
+    width: 150px;
+}

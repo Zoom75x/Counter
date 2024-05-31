@@ -1,0 +1,52 @@
+.container {
+    background-color: #504EC6;
+    width: 240px;
+    padding: 18px;
+    border-radius: 7px;
+    display:flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.count {
+    background-color: #504EC6;
+    font-size: 26px;
+    color: #FFFFFF;
+    border: 1px solid #1BBEBE;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 7px;
+}
+.countNew {
+    color: #EB0909;
+}
+
+.containerbtn {
+    display: flex;
+    gap: 16px;
+}
+
+.btninc {
+    background-color: #504EC6;
+    width: 100%;
+    border: 1px solid #1BBEBE;
+    border-radius: 7px;
+    color: #FFFFFF;
+    padding: 18px;
+    justify-content: center;
+    display: flex;
+}
+.btnincMax{
+    background: #39353591;
+    color: #888888;
+}
+.btnRes {
+    background-color: #504EC6;
+    width: 100%;
+    border: 1px solid #1BBEBE;
+    border-radius: 7px;
+    color: #FFFFFF;
+    padding: 18px;
+    justify-content: center;
+    display: flex;
+}
