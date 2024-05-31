@@ -15,9 +15,6 @@ export const DropDown =() => {
     const onClickMenuItem = (id:string) => {
         console.log(id)
     }
-
-
-
     return  (
             <div>
                 <button className={css.btnMenu} onClick={()=> setIsOpen(!isOpen)}>Параметры</button>
