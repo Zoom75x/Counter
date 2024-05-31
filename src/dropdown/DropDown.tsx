@@ -14,6 +14,7 @@ export const DropDown =() => {
     const [isOpen, setIsOpen] = useState<boolean>(false)
     const onClickMenuItem = (id:string) => {
         console.log(id)
+        console.log(id)
     }
     return  (
             <div>
